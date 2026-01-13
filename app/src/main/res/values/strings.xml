@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Sprint 13 Koh 35</string>
+    <string name="patern">%1$d ₽/%2$s</string>
     <string name="catalog_title">Каталог</string>
     <string name="cart_title">Корзина</string>
     <string name="cart_empty">Корзина пуста</string>
