@@ -30,7 +30,9 @@ class CartItemsAdapter : RecyclerView.Adapter<CartItemViewHolder>() {
             }
 
         })
-        items = newItems
+        items = newItems.filter {
+            it.count > 0
+        }
         diffResult.dispatchUpdatesTo(this)
     }
 

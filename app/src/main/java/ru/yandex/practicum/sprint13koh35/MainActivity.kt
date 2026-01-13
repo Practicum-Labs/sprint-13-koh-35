@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
                                 CartItem(
                                     id = UUID.randomUUID().toString(),
                                     catalogItem = it.item,
-                                    count = 1
+                                    count = it.count?.plus(1) ?: 1
                                 )
                             )
                         }
